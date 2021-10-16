@@ -104,16 +104,34 @@ hr {
     }
 }
 
+@media only screen and (max-width: 675px) {
+    #userGuess {
+        height: 50px;
+        padding: 10px;
+        margin: 2% 0;
+    }
+   }
+
 @media only screen and (max-width: 500px) {
     h1 {
         font-size: 2rem;
     }
 
     #responseDiv {
-        background-color: rgba(255, 255, 255, 0.842);
         border-radius: 10px;
         width: 80%;
         margin: 5% auto;
         padding: 10%;
+    }
+
+    img {
+        width: 10%;
+        margin-bottom: 2%;
+    }
+
+    #userGuess {
+        height: 50px;
+        padding: 10px;
+        margin: 2% 0;
     }
 }
