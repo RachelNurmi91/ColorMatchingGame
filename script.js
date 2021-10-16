@@ -9,7 +9,8 @@
 document.getElementById("submitGuess").addEventListener("click", guessingGame)
 
 function guessingGame() {
-    let userGuess = document.getElementById("userGuess").value;
+    let userInput = document.getElementById("userGuess").value;
+    let userGuess = userInput.toLowerCase();
     let paragraph = document.getElementById("p-response");
     let color1 = "#fff";
     let color2 = userGuess;
