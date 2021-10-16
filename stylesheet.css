@@ -76,15 +76,6 @@ hr {
     color: rgb(138, 138, 138);
 }
 
-
-div {
-    background-color: rgba(255, 255, 255, 0.842);
-    width: 50%;
-    margin: 0px auto;
-    padding: 50px 25px 75px 25px;
-    border-radius: 10px;
-}
-
 .gameDiv{
     background-color: rgba(255, 255, 255, 0.651);
     width: 50%;
@@ -97,6 +88,32 @@ div {
 }
 
 #responseDiv {
+    background-color: rgba(255, 255, 255, 0.842);
+    border-radius: 10px;
+    width: 50%;
     margin: 4% auto 2%;
-    padding: 3%;
+    padding: 5%;
+}
+
+
+@media only screen and (max-width: 900px) {
+ #responseDiv {
+        width: 70%;
+        margin: 5% auto;
+        padding: 10%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    #responseDiv {
+        background-color: rgba(255, 255, 255, 0.842);
+        border-radius: 10px;
+        width: 80%;
+        margin: 5% auto;
+        padding: 10%;
+    }
 }
