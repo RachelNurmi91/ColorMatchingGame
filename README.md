@@ -4,6 +4,16 @@ Designed a browser game where the player must guess the correct color. The playe
 
 `Play game demo:` https://rachelnurmi91.github.io/ColorGuessingGame/
 
+### Built with
+
+- JavaScript
+- HTML
+- CSS
+- Bootstrap
+- Visual Studio Code
+
+### Screenshots
+
 ![Screenshot of Color Guessing Game](/images/Screen-ColorGuessing.png)
 > Screenshot of the Color Guessing Game upon load.
 > 
