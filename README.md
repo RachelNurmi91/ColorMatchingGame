@@ -5,6 +5,7 @@ Designed a browser game where the player must guess the correct color. The playe
 `PLAY DEMO: https://rachelnurmi91.github.io/ColorGuessingGame/`
 
 ![Screenshot of Color Guessing Game](/images/Screen-ColorGuessing.png)
-> Screenshot of the Color Guessing Game.
+> Screenshot of the Color Guessing Game upon load.
+> 
 ![Screenshot of correct answer](/images/Screen-ColorGuessing-Correct.png)
 > Screenshot showing how the background changes to match the correct color.
