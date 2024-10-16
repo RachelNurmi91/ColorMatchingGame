@@ -9,14 +9,14 @@ Designed a browser game where the player must guess the correct color. The playe
 `View the site & play the Game:` [https://rachelnurmi91.github.io/The-Color-Guessing-Game/](https://rachelnurmi91.github.io/The-Color-Guessing-Game/)
 
 ### Techologies
-- JavaScript
-- HTML
-- CSS
+* JavaScript
+* HTML
+* CSS
 
 ### What I learned
 The Color Guessing Game was the first time I made a website fully functional for vistors with JavaScript. I wanted it to work correctly on all broswers and mobile devices. Previously, I had made broswer games through JavaScript alerts and prompts. I wanted to eliminate the use of them so it became more user friendly. My challenge was to build a website that would change the text on the page depending on what answer the player submitted, change the background color and have a functional button. To do this I learned how to change the text using innerHTML, crawl the DOM to set a new background gradient and add an Event Listener upon click to start the game. 
 
-### Screenshots
+## Project Screenshots
 
 ![Screenshot of Color Guessing Game](/images/Screen-ColorGuessing.png)
 > Screenshot of the Color Guessing Game upon load.
